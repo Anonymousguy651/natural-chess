@@ -85,7 +85,7 @@ def load_usernames(file_path):
 
 def main():
     usernames_file = "study_authors.txt"
-    token = "lip_aZxy0K5vsZlXT6Nyscxc"  # Replace with your actual API token
+    token = "PLACEHOLDER"  # Replace with your actual API token
     
     usernames = load_usernames(usernames_file)
     if not usernames:
