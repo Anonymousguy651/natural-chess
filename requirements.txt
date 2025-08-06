@@ -1,0 +1,30 @@
+# Core PyTorch and ML libraries
+torch
+torchvision
+torchaudio
+
+# Hugging Face libraries for transformer models
+transformers
+datasets
+accelerate
+huggingface_hub
+
+# Data processing and analysis
+pandas
+numpy
+
+# Chess-specific libraries
+python-chess
+
+# Web scraping and API requests
+requests
+beautifulsoup4
+
+# Language detection
+langdetect
+
+# Optional: For cloud storage (remove if not needed)
+google-cloud-storage
+
+# Optional: For model evaluation (remove if not needed)
+evaluate
