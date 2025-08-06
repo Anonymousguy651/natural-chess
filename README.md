@@ -64,9 +64,7 @@ The pipeline produced:
 
 ```
 ├── data/ # raw data files, pregenerated
-│   ├── natural_commentary.jsonl       # Full commentary dataset
-│   ├── literacy_train.jsonl   # Train data for literacy
-│   ├── literacy_test.jsonl       # Test data for literacy 
+│   ├── drive_link.txt       # Contains Google Drive link to full raw datasets. 
 ├── data_acquisition/              # Data collection and preprocessing scripts
 │   ├── scrape_usernames.py       # Extract study authors from blog post
 │   ├── extract_user_studies.py   # Download and parse Lichess studies
@@ -108,7 +106,7 @@ To generate the commentary data:
    python data_acquisition/colab_preprocess.py
    ```
 
-As previously mentioned, all credit to https://huggingface.co/datasets/nachors/dataset1 for the literacy data, including train test splits.
+As previously mentioned, all credit to https://huggingface.co/datasets/nachors/dataset1 for the literacy data, including train test splits. My preprocessed version of the literacy data can be found in the data folder. 
 
 ### Training Notebooks
 The notebooks in `finetune/` serve as references for:
