@@ -63,6 +63,10 @@ The pipeline produced:
 ## 📁 Repository Structure
 
 ```
+├── data/ # raw data files, pregenerated
+│   ├── natural_commentary.jsonl       # Full commentary dataset
+│   ├── literacy_train.jsonl   # Train data for literacy
+│   ├── literacy_test.jsonl       # Test data for literacy 
 ├── data_acquisition/              # Data collection and preprocessing scripts
 │   ├── scrape_usernames.py       # Extract study authors from blog post
 │   ├── extract_user_studies.py   # Download and parse Lichess studies
@@ -76,7 +80,7 @@ The pipeline produced:
 ├── requirements.txt              # Python dependencies
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 ```bash
@@ -114,7 +118,7 @@ The notebooks in `finetune/` serve as references for:
 
 ⚠️ **Note**: Running the notebook will not yield target results, much alteration, whether in the data pipeline or ML approach itself, is needed.
 
-## 🔮 Future Directions
+## Future Directions
 
 For those interested in continuing this work:
 
